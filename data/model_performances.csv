@@ -1,0 +1,5 @@
+Model,Total accuracy (%),CANCELLED (%),INFORCE (%)
+Nobody Cancels,69.49,0.0,100.0
+Flip a Coin,49.47,51.629999999999995,48.53
+Stepwise Regression,87.75,76.1,92.86
+Random Forest,88.74,93.31,86.72999999999999

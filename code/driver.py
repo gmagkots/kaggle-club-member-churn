@@ -14,7 +14,7 @@ def main():
     start_time = time.time()
 
     # run functions
-    # raw_data_etl()
+    raw_data_etl()
     feature_analysis()
 
     # stop the clock
