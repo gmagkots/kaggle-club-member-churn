@@ -149,9 +149,9 @@ def plot_histograms(df):
             ax.set_xticks(labels)
         ax.set_ylim(top=ax.get_yticks().max() * 1.03)
         ax.yaxis.set_major_formatter(mtick.PercentFormatter(1, 1))
-        ax.set_title("Distribution of {} ".format(lcol))
+        ax.set_title('Distribution of {}'.format(lcol))
         ax.set_xlabel(lcol)
-        ax.set_ylabel("Frequency")
+        ax.set_ylabel('Frequency')
         fig.tight_layout()
 
         # save the plot
